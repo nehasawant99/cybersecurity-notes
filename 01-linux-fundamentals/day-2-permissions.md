@@ -30,14 +30,12 @@ Numeric Values
 
 1 = execute
 
-KEY LEARNING FROM THIS MODULE: Why is this important? Bad permissions can lead to:
+What I Learned:
 
-Unauthorized access
-Privilege escalation
-Sensitive data exposure 
+Permissions control who can read, write, and execute files. Incorrect permissions can create security risks.
 
-Many CTFs and real-world vulnerabilities involve files that are writable or executable by the wrong users.
 
 SCREENSHOTS OF USERS AND PERMISSIONS:
 
-Screenshot 2026-06-23 at 3 34 44 PM
+<img width="774" height="372" alt="Screenshot 2026-06-23 at 3 34 44 PM" src="https://github.com/user-attachments/assets/a7ec0523-d0f1-4576-a1cd-5e5c85f08388" />
+
