@@ -1,0 +1,49 @@
+# Day 5 - Wireshark Basics
+
+Today I learned how to capture and analyze network traffic using Wireshark.
+
+Activities Performed:
+
+Captured live network traffic
+
+Observed TCP, UDP, icmp, arp packets
+
+Analysed DNS requests and responses
+
+Applied packet filters
+
+Investigated source and destination IP addresses
+
+Followed network conversations
+
+Useful Filters:
+
+dns
+
+arp
+
+icmp
+
+udp
+
+ip.addr == <IP>
+
+tcp.port == 80
+
+I practised capturing packets and understanding how devices communicate across a network.
+
+## Concepts Learned
+
+* Packets
+* Protocols
+* Source and Destination IP
+* Packet Analysis
+
+## Skills Practised
+
+* Traffic Analysis
+* Packet Inspection
+* Network Monitoring
+* Troubleshooting
+
+## SCREENSHOTS OF WIRESHARK ANALYSIS
