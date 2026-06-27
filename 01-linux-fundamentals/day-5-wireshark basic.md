@@ -2,35 +2,33 @@
 
 Today I learned how to capture and analyse network traffic using Wireshark.
 
-Activities Performed:
+# Activities Performed:
 
-Captured live network traffic
+- Captured live network traffic
 
-Observed icmp,arp, and UDP packets
+- Observed ICMP, ARP, and UDP packets
 
-Applied packet filters
+- Applied packet filters
 
-Investigated source and destination IP addresses
+- Investigated source and destination IP addresses
 
-Followed network conversations
+- Followed network conversations
 
-Useful Filters:
+# Useful Filters:
 
-dns
+- dns
 
-icmp
+- icmp
 
-arp
+- arp
 
-udp
+- udp
 
-ip.addr == <IP>
-
-tcp.port == 80
+- ip.addr == <IP>
 
 I practised capturing packets and understanding how devices communicate across a network.
 
-## Concepts Learned
+# Concepts Learned
 
 * Packets
 * Protocols
@@ -38,14 +36,14 @@ I practised capturing packets and understanding how devices communicate across a
 * Source and Destination IP
 * Packet Analysis
 
-## Skills Practised
+# Skills Practised
 
 * Traffic Analysis
 * Packet Inspection
 * Network Monitoring
 
 
-## SCREENSHOTS OF WIRESHARK ANALYSIS
+# SCREENSHOTS OF WIRESHARK ANALYSIS
 
 
 Generated some network
