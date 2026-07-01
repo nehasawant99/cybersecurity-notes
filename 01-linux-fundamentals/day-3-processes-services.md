@@ -20,7 +20,7 @@ Which service is listening on a port?
 - ss -tuln - listening to/checking open ports and connections
 
 
-SCREENSHOT OF PROCESSES AND SERVICE COMMANDS:
+## SCREENSHOT OF PROCESSES AND SERVICE COMMANDS:
 
 <img width="509" height="370" alt="Screenshot 2026-06-23 at 7 25 23 PM" src="https://github.com/user-attachments/assets/4d1fe451-9fe1-4069-bda3-a84e9b5cd319" />
 
