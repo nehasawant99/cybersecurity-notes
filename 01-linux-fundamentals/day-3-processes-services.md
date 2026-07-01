@@ -37,7 +37,7 @@ Performed this lab after learning the processes and service commands:
 <img width="638" height="266" alt="Screenshot 2026-06-23 at 7 25 05 PM" src="https://github.com/user-attachments/assets/6976dd3b-9e59-4f7f-bac8-17b4a131c2a9" />
 
 
-- In your first terminal:
+- In the first terminal:
 
 - ps aux | grep sleep
 
