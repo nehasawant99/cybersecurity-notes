@@ -2,33 +2,33 @@ Day 2 - Users and Permissions
 
 Today I learned User and permissions commands:
 
-whoami - current log - in user
+- whoami - current log - in user
 
-id - display the user id or group id
+- id - display the user id or group id
 
-who - current log-in into system
+- who - current log-in into system
 
-ls -l - listed files with detailed information (permission, owner, size, date)
+- ls -l - listed files with detailed information (permission, owner, size, date)
 
-chmod - change file or directory permission
+- chmod - change file or directory permission
 
-chown - change the owner or group of file or directory
+- chown - change the owner or group of file or directory
 
 Permission Types
 
-r = read
+- r = read
 
-w = write
+- w = write
 
-x = execute
+- x = execute
 
 Numeric Values
 
-4 = read
+- 4 = read
 
-2 = write
+- 2 = write
 
-1 = execute
+- 1 = execute
 
 What I Learned:
 
