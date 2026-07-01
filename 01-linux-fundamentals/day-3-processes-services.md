@@ -27,30 +27,30 @@ SCREENSHOT OF PROCESSES AND SERVICE COMMANDS:
 
 
 
-Mini Lab 
+ ## Mini Lab 
 Performed this lab after learning the processes and service commands:
 
-Open another terminal and run:
+- Open another terminal and run:
 
-sleep 300
+- sleep 300
 
 <img width="638" height="266" alt="Screenshot 2026-06-23 at 7 25 05 PM" src="https://github.com/user-attachments/assets/6976dd3b-9e59-4f7f-bac8-17b4a131c2a9" />
 
 
-In your first terminal:
+- In your first terminal:
 
-ps aux | grep sleep
+- ps aux | grep sleep
 
-Find its PID.
+- Find its PID.
 
 Then:
 
-kill PID
+- kill PID
 
 <img width="674" height="266" alt="Screenshot 2026-06-23 at 7 24 55 PM" src="https://github.com/user-attachments/assets/5ddc6d74-d88f-4d0d-b9e7-661d29eddc2d" />
 
 
-Verify it stopped.
+- Verify it stopped.
 
 
 
