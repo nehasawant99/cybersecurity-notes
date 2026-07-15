@@ -1,6 +1,6 @@
 #  SOC Analyst Log Analysis Notes
 
-## 1. Log Types Breakdown
+## Log Types Breakdown
 
 ###  1. Authentication Logs
 
@@ -12,7 +12,7 @@
 
 * **Failed Login:** `Jul 27 09:05:15 sshd: Failed password for root from 203.0.113.5`
 * *Meaning:* Someone tried to log in as `root` with an incorrect password from IP `203.0.113.5`.
-* 🚨 *Threat Indicator:* Potential **Brute-Force Attack**.
+*  *Threat Indicator:* Potential **Brute-Force Attack**.
 
 
 
@@ -74,7 +74,7 @@
 * **Examples:**
 * `Threat Detected: Trojan.Win32 | Action: Quarantined` $\rightarrow$ Malicious file isolated before execution.
 * `File: invoice.pdf.exe | Action: Deleted`
-* 🚨 *Threat Indicator:* The file uses a **double extension** (`.pdf.exe`) to trick users into running an executable masquerading as a PDF.
+*  *Threat Indicator:* The file uses a **double extension** (`.pdf.exe`) to trick users into running an executable masquerading as a PDF.
 
 
 
@@ -95,7 +95,7 @@
 
 ###  8. Proxy Logs
 
-* **Purpose:** Records outbound web traffic passing through the organization’s network exit point. Used for URL filtering and compliance checks.
+* **Purpose:** Records outbound web traffic passing through the organisation’s network exit point. Used for URL filtering and compliance checks.
 * **Examples:**
 * `User: Neha | Visited: github.com` $\rightarrow$ Normal development activity.
 * `User: Neha | Visited: free-movies-download.xyz`
@@ -138,7 +138,7 @@ A SOC analyst rarely looks at a single log source. Security incidents are recons
 
 ##  3. The Analyst's Checklist
 
-When analyzing any correlated security event, always answer the following foundational questions:
+When analysing any correlated security event, always answer the following foundational questions:
 
 * [ ] **What** happened? (What was the attack vector?)
 * [ ] **When** did it happen? (Establish an accurate timeline)
