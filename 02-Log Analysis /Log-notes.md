@@ -62,7 +62,7 @@
 
 * `GET /admin 403`
 * *Meaning:* A user tried to open the administration panel; server responded with `403 Forbidden`.
-* 🔎 *Analyst Note:* Investigate if this is reconnaissance/directory brute-forcing.
+* *Analyst Note:* Investigate if this is reconnaissance/directory brute-forcing.
 
 
 
