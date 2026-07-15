@@ -1,8 +1,8 @@
-# 🛡️ SOC Analyst Log Analysis Notes
+#  SOC Analyst Log Analysis Notes
 
 ## 1. Log Types Breakdown
 
-### 🔑 1. Authentication Logs
+###  1. Authentication Logs
 
 * **Purpose:** Records who tried to log in, when, from where, and the outcome (Success/Failure). Think of it as a computer's attendance register.
 * **Examples & Parsing:**
@@ -18,7 +18,7 @@
 
 
 
-### 🖥️ 2. System Logs
+###  2. System Logs
 
 * **Purpose:** Records events related to the Operating System (OS)—the computer's internal diary. Tracks boots, shutdowns, errors, driver issues, and service statuses.
 * **Examples:**
@@ -27,7 +27,7 @@
 
 
 
-### 📱 3. Application Logs
+###  3. Application Logs
 
 * **Purpose:** Records activities, transactions, and errors specific to software applications (e.g., Chrome, databases, web servers, custom code).
 * **Examples:**
@@ -36,7 +36,7 @@
 
 
 
-### 🔥 4. Firewall Logs
+###  4. Firewall Logs
 
 * **Purpose:** Monitors and records network traffic at the boundary. Acts like a security guard deciding to **ALLOW** or **BLOCK** connections based on rules.
 * **Examples:**
@@ -45,14 +45,14 @@
 
 
 * `BLOCK TCP 185.20.10.15 → 192.168.1.20 Port 22`
-* *Meaning:* Inbound SSH (`Port 22`) request from an external IP was dropped by the firewall.
-* 🚨 *Threat Indicator:* Unauthorized access attempt or SSH scanning.
+* *Meaning:* An inbound SSH (`Port 22`) request from an external IP was dropped by the firewall.
+*  *Threat Indicator:* Unauthorised access attempt or SSH scanning.
 
 
 
 
 
-### 🌐 5. Web Server Logs
+###  5. Web Server Logs
 
 * **Purpose:** Records every inbound HTTP request made to a hosted website—a visitor book for the web server.
 * **Examples:**
@@ -68,7 +68,7 @@
 
 
 
-### 🦠 6. Antivirus Logs
+###  6. Antivirus Logs
 
 * **Purpose:** Records malware detections, file scans, and mitigation actions taken by endpoint security tools.
 * **Examples:**
@@ -80,45 +80,45 @@
 
 
 
-### 🌍 7. DNS Logs
+###  7. DNS Logs
 
 * **Purpose:** Records domain name resolutions (converting website names to IP addresses). The internet's phonebook requests.
 * **Examples:**
 * `Laptop01 → google.com` $\rightarrow$ Normal business traffic querying a standard domain.
 * `Laptop01 → freegift-malware.xyz`
-* 🚨 *Threat Indicator:* Command and Control (C2) callback or malicious redirection.
-* 🔎 *Analyst Action:* Cross-reference domain with Threat Intel (e.g., VirusTotal).
+*  *Threat Indicator:* Command and Control (C2) callback or malicious redirection.
+*  *Analyst Action:* Cross-reference domain with Threat Intel (e.g., VirusTotal).
 
 
 
 
 
-### 🌐 8. Proxy Logs
+###  8. Proxy Logs
 
 * **Purpose:** Records outbound web traffic passing through the organization’s network exit point. Used for URL filtering and compliance checks.
 * **Examples:**
 * `User: Neha | Visited: github.com` $\rightarrow$ Normal development activity.
 * `User: Neha | Visited: free-movies-download.xyz`
-* ⚠️ *Risk:* High probability of hosting malware, phishing kits, or violating company policy.
+*  *Risk:* High probability of hosting malware, phishing kits, or violating company policy.
 
 
 
 
 
-### 🔐 9. VPN Logs
+###  9. VPN Logs
 
 * **Purpose:** Records remote connection attempts to the internal corporate network.
 * **Examples:**
 * `User: Neha | Connected | Mumbai | 09:00 AM` $\rightarrow$ Normal remote work scenario.
 * `User: Neha | Connected | London | 09:10 AM`
-* 🚨 *Threat Indicator:* **Impossible Travel**. A single user cannot physically travel from Mumbai to London in 10 minutes. Indicates compromised credentials or account sharing.
+*  *Threat Indicator:* **Impossible Travel**. A single user cannot physically travel from Mumbai to London in 10 minutes. Indicates compromised credentials or account sharing.
 
 
 
 
 ---
 
-## 🧩 2. Log Correlation & Incident Timeline
+##  2. Log Correlation & Incident Timeline
 
 A SOC analyst rarely looks at a single log source. Security incidents are reconstructed by stitching different log files together chronologically to tell a complete story.
 
@@ -136,7 +136,7 @@ A SOC analyst rarely looks at a single log source. Security incidents are recons
 
 ---
 
-## ❓ 3. The Analyst's Checklist
+##  3. The Analyst's Checklist
 
 When analyzing any correlated security event, always answer the following foundational questions:
 
