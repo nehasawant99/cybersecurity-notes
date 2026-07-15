@@ -1,4 +1,4 @@
-#  SOC Analyst Log Analysis Notes
+#  Log Analysis Notes
 
 ## Log Types Breakdown
 
@@ -136,7 +136,7 @@ A SOC analyst rarely looks at a single log source. Security incidents are recons
 
 ---
 
-##  3. The Analyst's Checklist
+##  3. The Analyst's Checklist 
 
 When analysing any correlated security event, always answer the following foundational questions:
 
