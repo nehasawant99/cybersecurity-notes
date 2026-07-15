@@ -140,9 +140,9 @@ A SOC analyst rarely looks at a single log source. Security incidents are recons
 
 When analysing any correlated security event, always answer the following foundational questions:
 
-* [ ] **What** happened? (What was the attack vector?)
-* [ ] **When** did it happen? (Establish an accurate timeline)
-* [ ] **Who** was involved? (Targeted usernames, source IPs, malicious actors)
-* [ ] **Which** systems were affected? (Identify the blast radius)
-* [ ] **Is it malicious** or normal activity? (Rule out false positives)
-* [ ] **What next?** (Isolate the host, reset credentials, update firewall rules)
+* **What** happened? (What was the attack vector?)
+* **When** did it happen? (Establish an accurate timeline)
+* **Who** was involved? (Targeted usernames, source IPs, malicious actors)
+* **Which** systems were affected? (Identify the blast radius)
+* **Is it malicious** or normal activity? (Rule out false positives)
+* **What next?** (Isolate the host, reset credentials, update firewall rules)
